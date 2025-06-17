@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL:"http://localhost:5000" ,
+  baseURL:"https://bluegen-backend.vercel.app" ,
 });
 
 API.interceptors.request.use((config) => {
